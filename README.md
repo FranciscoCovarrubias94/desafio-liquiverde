@@ -28,4 +28,5 @@ Se utilizó ChatGPT para:
 
 ## Extra
 No se logro dejar precios finales con datos utiles para mostrar el algoritmo de optimización, aunque se logro apreciar que si 
-funcionaba con datos de prueba utilizados anteriormente
+funcionaba con datos de prueba utilizados anteriormente, como se puede comprobar si se cargan los datos de prueba de la
+carpeta dataset
