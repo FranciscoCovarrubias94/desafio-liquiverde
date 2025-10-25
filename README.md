@@ -2,7 +2,6 @@
 
 ## Backend
 1. Crear entorno virtual:
-```bash
 cd backend
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
@@ -17,8 +16,8 @@ uvicorn app.main:app --reload --port 8000
 ## **Configuración de APIs y variables de entorno**
 
 ## Algoritmos implementados
-1. **Scoring de Sostenibilidad**: combina factores económicos, ambientales y sociales para asignar un puntaje global a cada producto.
-2. **Optimización de lista (Mochila Multi-objetivo)**: selecciona productos optimizando score global dentro de un presupuesto.
+1. Scoring de productos (compute_product_score): Calcula un puntaje de sostenibilidad para cada producto combinando tres dimensiones: económico (econ), ambiental (env) y social (soc). Económico favorece precios bajos, ambiental premia menor huella de carbono y social considera atributos como empaques reciclables. Cada dimensión se normaliza entre 0 y 100 y se pondera según los pesos dados, generando un puntaje overall que refleja la sostenibilidad integral del producto.
+2. Optimización de lista (knapsack_by_budget): Implementa un algoritmo tipo mochila multi-objetivo para seleccionar productos dentro de un presupuesto limitado. Cada producto recibe un “ratio” que combina utilidad y bajo impacto ambiental (weighted_value) dividido por su precio. Luego se ordenan los productos por este ratio y se agregan a la lista hasta agotar el presupuesto o el límite de ítems, maximizando la sostenibilidad por unidad monetaria gastada.
 
 ## Uso de IA
 Se utilizó ChatGPT para:
