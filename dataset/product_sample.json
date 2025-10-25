@@ -1,0 +1,8 @@
+[
+  {"barcode":"12345","name":"Pan Integral","brand":"Panix","category":"bread","price":1.2,"weight_kg":0.5,"packaging":"recyclable","estimated_carbon":0.5},
+  {"barcode":"23456","name":"Leche 1L","brand":"Lechita","category":"dairy","price":0.9,"weight_kg":1.0,"packaging":"carton","estimated_carbon":0.8},
+  {"barcode":"34567","name":"Arroz 1kg","brand":"Grano","category":"grain","price":2.0,"weight_kg":1.0,"packaging":"plastic","estimated_carbon":0.6},
+  {"barcode":"45678","name":"Pollo 1kg","brand":"Avícola","category":"meat","price":5.5,"weight_kg":1.0,"packaging":"plastic","estimated_carbon":3.2},
+  {"barcode":"56789","name":"Manzana 1kg","brand":"Frutal","category":"fruit","price":2.5,"weight_kg":1.0,"packaging":"none","estimated_carbon":0.4},
+  {"barcode":"67890","name":"Yogurt 150g","brand":"Yogu","category":"dairy","price":0.8,"weight_kg":0.15,"packaging":"plastic","estimated_carbon":0.5}
+]
