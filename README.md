@@ -2,6 +2,7 @@
 
 ## Backend
 1. Crear entorno virtual:
+```
 cd backend
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
@@ -11,7 +12,7 @@ pip install -r requirements.txt
 python -m app.db 
 python -m app.load_sample_data #para cargar datos de ejemplo
 uvicorn app.main:app --reload --port 8000
-
+```
 
 ## **Configuración de APIs y variables de entorno**
 
@@ -25,6 +26,6 @@ Se utilizó ChatGPT para:
 - Ejemplos de scripts para cargar datos.
 - Explicación y optimización de algoritmos de scoring y mochila.
 
-##Extra
+## Extra
 No se logro dejar precios finales con datos utiles para mostrar el algoritmo de optimización, aunque se logro apreciar que si 
 funcionaba con datos de prueba utilizados anteriormente
